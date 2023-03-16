@@ -8,6 +8,12 @@ Abstract: Emotion is associated with thoughts, feelings and a degree of pleasure
 ## What's New
 **[Mar 2023]:** Sec2Sec Co-attention Transformer released.
 
+## How to run
+- [dataloader.py](dataloader.py): load LIRIS audio-visual data
+- layer.py: implementation of our model
+- train.py: train and test our model
+- utils.py: 
+
 ### Dependencies:
 - Python 3.8.8
 - CUDA 11.7
