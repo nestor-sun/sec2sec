@@ -7,5 +7,6 @@ Abstract: Emotion is associated with thoughts, feelings and a degree of pleasure
 
 
 ### Dependencies:
+- Python 3.8.8
 - CUDA 11.7
 - PyTorch 1.9.1
