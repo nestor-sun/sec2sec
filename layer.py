@@ -90,20 +90,6 @@ class MultiHeadAttention(nn.Module):
         return x
 
 
-class Transformer(nn.Module):
-    def __init__(self, num_of_heads, d, norm_method='layer', dropout=0.1):
-        super(Transformer, self).__init__()
-        self.attention = MultiHeadAttention(num_of_heads, d)
-        self.norm = AddNorm(d, dropout, norm_method)
-        self.linear = nn.Linear(d, d)
-
-    def forward(self, q, k, v):
-        x = self.attention(q,k,v)
-        x_norm = self.norm(v, x)
-        x_linear = self.linear(x_norm)
-        return x_linear
-
-
 class Sec2SecCoattention(nn.Module):
     def __init__(self, d, num_of_heads, lstm_hidden_dim, num_of_lstm_layers, num_of_dense_layers,\
                         dense_hidden_dim, device, norm_method, dropout=0.1):
