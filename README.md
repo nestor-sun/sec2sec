@@ -5,6 +5,8 @@ Abstract: Emotion is associated with thoughts, feelings and a degree of pleasure
 ## Model Architecture
 ![sec2sec framework](https://user-images.githubusercontent.com/47902113/225509553-f2c3bada-5691-4c97-a855-73aea9f702f6.png)
 
+## What's New
+**[Mar 2023]:** Sec2Sec Co-attention Transformer released.
 
 ### Dependencies:
 - Python 3.8.8
