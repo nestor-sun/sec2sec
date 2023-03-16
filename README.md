@@ -12,7 +12,7 @@ Abstract: Emotion is associated with thoughts, feelings and a degree of pleasure
 - [dataloader.py](dataloader.py): load LIRIS audio-visual data
 - [layer.py](layer.py): implementation of our model
 - [train.py](train.py): train and test our model
-- [utils.py](utils.py): 
+- [utils.py](utils.py): necessary functions for training our model
 
 ### Dependencies:
 - Python 3.8.8
