@@ -7,7 +7,7 @@ Abstract: Emotion is associated with thoughts, feelings and a degree of pleasure
 
 ## What's New
 **[Mar 2023]:** Sec2Sec Co-attention Transformer released. \
-**[Dec 2023]:** Sec2Sec Co-attention Transformer was accepted as a regular paper at International Conference in Acoustics, Speech and Signal Processing (ICASSP).
+**[Dec 2023]:** Sec2Sec Co-attention Transformer was accepted as a regular paper at International Conference in Acoustics, Speech and Signal Processing (**ICASSP**).
 
 ## How to run
 - [dataloader.py](dataloader.py): load LIRIS audio-visual data
